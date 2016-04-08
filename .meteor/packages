@@ -18,13 +18,4 @@ es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 autopublish             # Publish all data to the clients (for prototyping)
-semantic:ui
-flemay:less-autoprefixer
-service-configuration
-biasport:facebook-sdk
-kadira:flow-router
-kadira:blaze-layout
-ian:accounts-ui-bootstrap-3
-twbs:bootstrap
-accounts-facebook
-ian:bootstrap-3-theme
+insecure                # Allow all DB writes from clients (for prototyping)
