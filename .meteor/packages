@@ -24,3 +24,6 @@ accounts-facebook
 twbs:bootstrap
 kadira:blaze-layout
 aldeed:autoform
+http
+mdg:camera
+jquery-waypoints
