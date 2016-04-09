@@ -7,3 +7,4 @@ KATALOGER OCH FILER
     - /layouts: mapp för layout-filer.
     - /styles: CSS-filer för design och layout av sidorna.
 - /public: Här lägger man alla externa filer såsom bilder eller fonts.
+- /tests: filer för testning läggs här.
