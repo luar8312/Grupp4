@@ -21,7 +21,6 @@ kadira:flow-router
 ian:accounts-ui-bootstrap-3
 accounts-base
 accounts-facebook
-accounts-password
 twbs:bootstrap
 kadira:blaze-layout
 aldeed:autoform
