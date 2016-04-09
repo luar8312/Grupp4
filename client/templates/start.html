@@ -1,3 +1,9 @@
+<!-- template som är tänkt att visas på startsidan.-->
 <template name="start">
+    {{#unless currentUser}}
+        {{>loginButtons}}
+    {{else}}
+        <div>inloggad</div>
+    {{/unless}}
     {{test}}
 </template>
