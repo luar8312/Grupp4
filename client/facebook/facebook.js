@@ -1,4 +1,4 @@
-//initialisering av facebook-appen.
+//initialisering av projektets facebook-applikation.
 window.fbAsyncInit = function() {
 	FB.init({
 		appId      : '817222461743198',
@@ -14,3 +14,4 @@ window.fbAsyncInit = function() {
 	js.src = "//connect.facebook.net/en_US/sdk.js";
 	fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
