@@ -2,7 +2,7 @@
 
 
 ## Att tänka på
-* När man commitar filer, ladda inte upp några filer som ligger i eran .idea-mapp då filerna i den mappen innehåller inställningar och liknande för er lokala IDE. Det kan skapa problem för andra om man drar ner någon annans .idea-mapp.
+* När man commitar filer, ladda inte upp några filer som ligger i eran .idea-mapp då filerna i den mappen innehåller inställningar och liknande för er lokala IDE. Det kan skapa problem för andra om man drar ner någon annans .idea-mapp. Detsamma gäller om man kör någon annan IDE än Webstorm; ladda inte upp lokala inställningsfiler etc.
 
 
 ##Kataloger och filer
