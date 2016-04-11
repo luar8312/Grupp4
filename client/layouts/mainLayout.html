@@ -1,6 +1,10 @@
 <!-- Tänkt som en main-layout. Troligtvis behövs det ingen mer än den här för våran app. Den här genereras in i body-taggen av index.html-->
 
 <template name="mainLayout">
-    {{>Template.dynamic template=header}}
-    {{>Template.dynamic template=main}}
+    <header>
+        {{>Template.dynamic template=header}}
+    </header>
+    <main>
+        {{>Template.dynamic template=main}}
+    </main>
 </template>
