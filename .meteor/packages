@@ -19,7 +19,6 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 kadira:flow-router
 ian:accounts-ui-bootstrap-3
-accounts-base
 accounts-facebook
 twbs:bootstrap
 kadira:blaze-layout

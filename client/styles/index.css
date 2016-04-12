@@ -2,3 +2,40 @@
 det är bara att göra andra om man känner för det,
 men det troliga är att vi bara behöver en. */
 
+body {
+    background-color: black;
+    font-family: "Baron Neue", serif;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #585858;
+    color:#FFFFFF!important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #585858!important;
+    color: black!important;
+}
+
+.btn-primary:active, .btn.active, .btn-primary.active {
+    background: #585858!important;
+    box-shadow: none;
+}
+
+.center {
+    margin-top: 20%;
+    margin-bottom:20%;
+}
