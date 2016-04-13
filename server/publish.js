@@ -1,3 +1,1 @@
-/**
- * Created by robinjohansson on 2016-04-08.
- */
+//Här skrivs kod för att publicera data från collections.
