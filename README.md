@@ -13,4 +13,5 @@
     - /layouts: mapp för layout-filer.
     - /styles: CSS-filer för design och layout av sidorna.
 - /public: Här lägger man alla externa filer såsom bilder, fonts etc.
+- /collections: Här lägger vi collections som lagras i databasen.
 - /tests: filer för testning läggs här.
