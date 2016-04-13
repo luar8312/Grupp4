@@ -6,7 +6,7 @@
 * Var noga med att kommentera koden så alla förstår vad den gör, det underlättar för samtliga om man ska in och redigera någon annans kod.
 * Ha samma namn på script och html-filer som har med varandra att göra, samt lägg de filerna som hör ihop i samma katalog. T.ex. om man har en html-fil med namn main.html och en tillhörande script-fil så bör den script-filen namnges main.js.
 
-##Kataloger och filer
+## Kataloger och filer
 - /server: här lägger man alla filer som innehåller kod som enbart körs på servern.
 - /client: här hamnar all kod som körs på klienten.
     - /fb: här läggs filer som har med facebook-API att göra.
