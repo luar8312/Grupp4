@@ -31,3 +31,5 @@ sacha:spin
 accounts-ui-unstyled
 twbs:bootstrap
 biasport:facebook-sdk
+krstffr:instagram-fetcher
+arkham:comments-ui
