@@ -1,13 +1,16 @@
 <!-- template som är tänkt att visas på startsidan.-->
 <template name="start">
     <div class="container center-block center">
-        <div class="row center-block">
-            {{>loginButtons}}
+        <div class="col-lg-1">
+            <!-- Facebook-inloggning.-->
+            <button class="btn btn-block btn-primary" type="submit">Logga in med Facebook</button>
         </div>
-        <div class="col-lg-1 text-center h3">----------ELLER------------ //Temporärt, här ska en riktig avgränsare vara.</div>
+        <div class="col-lg-1 text-center h3">TEXT ELLER NÅGON IKON?
+        </div>
         <span class="row"></span>
         <div class="col-lg-1">
-            <button class="btn btn-primary btn-block center-block">Fortsätt utan inloggning</button>
+            <!-- Gå vidare utan inloggning -->
+            <button id="continue-no-login" class="btn btn-info btn-block">Fortsätt utan inloggning</button>
         </div>
     </div>
 </template>

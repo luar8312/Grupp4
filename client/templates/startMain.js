@@ -1,8 +1,8 @@
 Template.start.helpers({
-	//Hjälpmetoder.
+	//Hjälpmetoder för startsidan.
 });
 
 
 Template.start.events({
-	//event handlers.
+	//event handlers för startsidan.
 });
