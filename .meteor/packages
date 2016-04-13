@@ -31,3 +31,11 @@ biasport:facebook-sdk
 arkham:comments-ui
 meteortoys:allthings
 twbs:bootstrap
+sach:flow-db-admin
+dburles:collection-helpers
+accounts-base
+accounts-password
+alanning:roles
+fortawesome:fontawesome
+accounts-ui
+session

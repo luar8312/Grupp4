@@ -8,23 +8,34 @@ FlowRouter.route('/', {
 	}
 });
 
-FlowRouter.route('home', {
+FlowRouter.route('/home', {
 	//route för startsida efter man har valt att
 	// gå vidare utan inloggning eller när man är inloggad.
 });
 
-FlowRouter.route('forum', {
+FlowRouter.route('/forum', {
 	//Route för att visa forumet.
 });
 
-FlowRouter.route('characters', {
+FlowRouter.route('/characters', {
 	//Route för att visa sidan med karaktärer.
 });
 
-FlowRouter.route('find-here', {
+FlowRouter.route('/find-here', {
 	//Route för "hitta till oss".
 });
 
-FlowRouter.route('pictures', {
-	//Route för att visa Instagram-flödet.
+FlowRouter.route('/pictures', {
+	//Route för Instagram-flödet.
+});
+
+FlowRouter.route('/adminLogin', {
+	triggersEnter: [function (context, redirect) {
+		//redirect direkt till adminpanelen om användaren är inloggad som admin redan.
+	}],
+
+	//annars rendera loginskärmen.
+	action: function(){
+		BlazeLayout.render('mainLayout', {main: 'adminLoginScreen'});
+	}
 });

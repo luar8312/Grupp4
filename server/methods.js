@@ -3,4 +3,13 @@
  */
 Meteor.methods({
 	//Här skriver man serversidans metoder som ska kunna anropas av klientsidan.
+	addCharacter: function (name, image, description) {
+		//Lägga till en karaktär.
+	},
+	deleteCharacter: function (id) {
+		//Ta bort en karaktär.
+	},
+	updateCharacter: function (id) {
+		//Uppdatera information om en karaktär.
+	}
 });

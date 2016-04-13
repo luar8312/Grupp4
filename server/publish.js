@@ -1,1 +1,1 @@
-//Här skrivs kod för att publicera data från collections.
+//Här skrivs kod för att publicera data från collections som klienten kan prenumerera på.
