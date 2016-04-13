@@ -23,11 +23,11 @@ kadira:blaze-layout
 aldeed:autoform
 http
 mdg:camera
-jquery-waypoints
 fastclick
 practicalmeteor:mocha
 aldeed:collection2
 sacha:spin
-twbs:bootstrap
 biasport:facebook-sdk
 arkham:comments-ui
+meteortoys:allthings
+twbs:bootstrap
