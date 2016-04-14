@@ -21,7 +21,7 @@ FlowRouter.route('/characters', {
 	//Route för att visa sidan med karaktärer.
 });
 
-FlowRouter.route('/find-here', {
+FlowRouter.route('/get-here', {
 	//Route för "hitta till oss".
 });
 
