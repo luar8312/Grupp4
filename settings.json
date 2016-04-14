@@ -1,0 +1,8 @@
+{
+  //Här definierar man sånt som ska vara hemligt,
+  //exempelvis privata nycklar för APIer eller lösenord.
+  "facebookApp": {
+    "app_secret": "6772ba3ddec308d4791067563ab01673"
+  }
+
+}

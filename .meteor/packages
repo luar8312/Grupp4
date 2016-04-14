@@ -39,3 +39,4 @@ alanning:roles
 fortawesome:fontawesome
 accounts-ui
 session
+cfs:filesystem

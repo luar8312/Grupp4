@@ -9,7 +9,7 @@ Meteor.methods({
 	deleteCharacter: function (id) {
 		//Ta bort en karaktär.
 	},
-	updateCharacter: function (id) {
+	updateCharacter: function (id, name, description, image) {
 		//Uppdatera information om en karaktär.
 	}
 });
